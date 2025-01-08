@@ -1,8 +1,8 @@
 .serciveList {
   width: 90%;
+  justify-items: center;
 }
 .header {
-  text-align: center;
   text-decoration: underline;
 }
 
