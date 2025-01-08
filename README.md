@@ -29,6 +29,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 This project is a prototype for a **Service Catalogue Platform** developed using React. It demonstrates responsive design, dynamic data handling, navigation, and multi-step form functionality.
 
+## 🔗 Deployed preview
+
+https://service-catalogue-platform.netlify.app/
+
 ## Features
 
 - Display a list of services with details like name, description, and price.
