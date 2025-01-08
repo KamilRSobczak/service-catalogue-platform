@@ -1,0 +1,137 @@
+.header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.spearator {
+  width: 100%;
+  border: 1px solid black;
+}
+.stepContainer {
+  gap: 1.5em;
+  border-radius: 1em;
+  background: #cde2e9;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+  padding: 0.5em;
+  width: 100%;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 1em min(2em, 3%);
+}
+
+.stepHeader {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.2em 0.5em 0.5em 0.5em;
+}
+
+.stepContainer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.stepContainer span {
+  display: block;
+}
+.stepContainer input {
+  padding: 0 10px;
+  text-align: left;
+  transition-property: box-shadow, background;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  background-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #dae3f3;
+  border-radius: 0px;
+  color: #272c34;
+  width: fill-available;
+  width: -moz-available;
+  cursor: text;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  height: 30px;
+
+  &:hover {
+    box-shadow: 0px 2px 4px rgb(39 44 52 / 12%);
+  }
+  &:focus {
+    transition-property: border-color, box-shadow, background;
+    border-color: #39414d;
+    outline: 0px;
+    box-shadow: 0 0 0 3px #c5d2e7;
+  }
+  &:disabled {
+    background: #d5dbe1;
+    border-color: #dbe1eb;
+  }
+}
+
+textarea {
+  padding: 0 10px;
+  text-align: left;
+  transition-property: box-shadow, background;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  background-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #dae3f3;
+  border-radius: 0px;
+  color: #272c34;
+  width: fill-available;
+  width: -moz-available;
+  cursor: text;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 10em;
+  resize: vertical;
+}
+
+.orderSummary {
+  font-size: 1.3rem;
+}
+
+.stepBtnContainer {
+  margin: 5px 0;
+  min-height: 1em;
+}
+
+.stepBacktBtn {
+  float: left;
+}
+.stepNextBtn {
+  float: right;
+}
+.stepBacktBtn,
+.stepNextBtn {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: #697268;
+  text-decoration: none;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.stepBacktBtn:hover,
+.stepNextBtn:hover {
+  color: #4e5340;
+}
+
+.stepBacktBtn:disabled,
+.stepNextBtn:disabled {
+  color: #b0b5b0;
+}
+
+.additionalNotes {
+  overflow: hidden;
+}
